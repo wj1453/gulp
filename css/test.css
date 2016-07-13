@@ -1,0 +1,10 @@
+input[type=text],
+input[type=password] {
+  display: inline-block;
+  padding: 0 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  background: #fff;
+  font-size: 14px;
+  color: #666;
+}

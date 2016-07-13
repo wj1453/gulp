@@ -1,0 +1,15 @@
+@mainColor:#f04344;
+
+.rounded-corners(@radius:3px){
+	border-radius:@radius;
+}
+
+input[type=text],input[type=password]{
+	display:inline-block;
+	padding:0 10px;
+	border:1px solid #ddd;
+	.rounded-corners;
+	background:#fff;
+	font-size:14px;
+	color:#666;
+}
